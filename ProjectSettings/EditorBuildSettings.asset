@@ -19,3 +19,7 @@ EditorBuildSettings:
     path: Assets/Scenes/User_Type.unity
   - enabled: 1
     path: Assets/Scenes/boost.unity
+  - enabled: 1
+    path: Assets/Scenes/Calibration.unity
+  - enabled: 1
+    path: Assets/Scenes/Blow to Charge.unity

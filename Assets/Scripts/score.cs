@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class score : MonoBehaviour {
     float start_time;
+    public int score1;
     public Text scoreText;  // public if you want to drag your text object in there manually
     // Use this for initialization
     void Start () {
@@ -14,7 +15,7 @@ public class score : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        int score = (int) (Time.time - start_time );
-        scoreText.text ="Score: " + score.ToString();
+        score1 = (int) (Time.time - start_time );
+        scoreText.text ="Score: " + score1.ToString();
     }
 }

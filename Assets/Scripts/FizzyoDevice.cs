@@ -13,6 +13,8 @@ public class FizzyoDevice : MonoBehaviour
     public string recordedDataPath = "Data/FizzyoData_3min.fiz";
     public Text debugTextPressure = null;
 
+    public static bool useFizzioDevice;
+
     //Singleton
     private static FizzyoDevice instance;
     private static object threadLock = new System.Object();
@@ -73,8 +75,9 @@ public class FizzyoDevice : MonoBehaviour
     //Cleanup  
     void OnApplicationQuit()
     {
+   
         //Close file pointer 
-        fileReader.Close();
+        //fileReader.Close();
 
         //Stop Timer 
         pollTimer.Stop();
