@@ -1,2 +1,2 @@
 # c-force
-Team folder for c-force project
+Team folder for C-force Project conducted as part of Imperial College Health Hackathon, March 2017.
